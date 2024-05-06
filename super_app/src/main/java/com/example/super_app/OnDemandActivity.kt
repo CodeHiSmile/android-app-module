@@ -13,9 +13,10 @@ class OnDemandActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_on_demand)
-        val intent = Intent(this, FlutterActivity::class.java)
-        askNotificationPermission()
+//        setContentView(R.layout.activity_on_demand)
+//        val intent = Intent(this, FlutterActivity::class.java)
+//        askNotificationPermission()
+
         startActivity(
             FlutterActivity.createDefaultIntent(this)
         );

@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".OnDemandActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
+        android:textColor="@color/black"
         android:text="on demand" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
