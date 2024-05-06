@@ -8,10 +8,12 @@
     tools:context=".OnDemandActivity">
 
     <TextView
+        android:id="@+id/tvClick"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
+        android:textSize="30dp"
         android:textColor="@color/black"
-        android:text="on demand" />
+        android:text="Tap to navigate Super App" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
