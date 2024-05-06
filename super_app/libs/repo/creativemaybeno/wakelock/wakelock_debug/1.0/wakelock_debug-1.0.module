@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "creativemaybeno.wakelock",
+    "module": "wakelock_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wakelock_debug-1.0.aar",
+          "url": "wakelock_debug-1.0.aar",
+          "size": 11764,
+          "sha512": "567ad0444dc1a19842f8f1bcaf693c663041304ee21a7ab56a9c59e8ecd423c047121f82f16085fc88db534522421ec2526fcae279c48129a6d93fd5b0092f0f",
+          "sha256": "797f5141b574195b22b082dba90dc790292cb850072f396115019f0d2edc7a9e",
+          "sha1": "3ef27be3246188c8cf41d6df2c6f6c85605984b7",
+          "md5": "1ea5b8c589ce805302a3ab7fd869e338"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wakelock_debug-1.0.aar",
+          "url": "wakelock_debug-1.0.aar",
+          "size": 11764,
+          "sha512": "567ad0444dc1a19842f8f1bcaf693c663041304ee21a7ab56a9c59e8ecd423c047121f82f16085fc88db534522421ec2526fcae279c48129a6d93fd5b0092f0f",
+          "sha256": "797f5141b574195b22b082dba90dc790292cb850072f396115019f0d2edc7a9e",
+          "sha1": "3ef27be3246188c8cf41d6df2c6f6c85605984b7",
+          "md5": "1ea5b8c589ce805302a3ab7fd869e338"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.jrai.flutter_keyboard_visibility",
+    "module": "flutter_keyboard_visibility_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_keyboard_visibility_profile-1.0.aar",
+          "url": "flutter_keyboard_visibility_profile-1.0.aar",
+          "size": 4863,
+          "sha512": "b90fe326a19467b984257befa16f518b57d4aa22a474df5b5fa0b755e62edd261f7385bebb42f766ac1473ba1df18eb172dc47d02862436719d10fb84c1097dc",
+          "sha256": "daca604f0c39bcae157cd9eecc41307fb94ae8a1affc2146fe703445af3bf1b1",
+          "sha1": "64e744966dd610ae9c44f8e36fa1cb3ec50ce011",
+          "md5": "a6e7f8d854d7699dd43902dbd6d7daa2"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_keyboard_visibility_profile-1.0.aar",
+          "url": "flutter_keyboard_visibility_profile-1.0.aar",
+          "size": 4863,
+          "sha512": "b90fe326a19467b984257befa16f518b57d4aa22a474df5b5fa0b755e62edd261f7385bebb42f766ac1473ba1df18eb172dc47d02862436719d10fb84c1097dc",
+          "sha256": "daca604f0c39bcae157cd9eecc41307fb94ae8a1affc2146fe703445af3bf1b1",
+          "sha1": "64e744966dd610ae9c44f8e36fa1cb3ec50ce011",
+          "md5": "a6e7f8d854d7699dd43902dbd6d7daa2"
+        }
+      ]
+    }
+  ]
+}

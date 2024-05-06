@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.syncfusion.flutter.pdfviewer",
+    "module": "syncfusion_flutter_pdfviewer_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncfusion_flutter_pdfviewer_debug-1.0.aar",
+          "url": "syncfusion_flutter_pdfviewer_debug-1.0.aar",
+          "size": 10442,
+          "sha512": "9adb220c14f128d0e09795ba3ae7b75ab7d1ea2ea84116238913c0db9bcbd3a49bf0db5164d83489eda3ab5d56c5f10e7f401c9b3268ffe9fb60acdfeb3b05c6",
+          "sha256": "14f0952fb8190a6c9282e7953052c6ee476141cec3c82ce54ad7ce8141e1b3f0",
+          "sha1": "7da3993fc22998ea9457f596d7cfd694e933aab6",
+          "md5": "a4cd6b7ffaca6940cd07e9887f5d261d"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncfusion_flutter_pdfviewer_debug-1.0.aar",
+          "url": "syncfusion_flutter_pdfviewer_debug-1.0.aar",
+          "size": 10442,
+          "sha512": "9adb220c14f128d0e09795ba3ae7b75ab7d1ea2ea84116238913c0db9bcbd3a49bf0db5164d83489eda3ab5d56c5f10e7f401c9b3268ffe9fb60acdfeb3b05c6",
+          "sha256": "14f0952fb8190a6c9282e7953052c6ee476141cec3c82ce54ad7ce8141e1b3f0",
+          "sha1": "7da3993fc22998ea9457f596d7cfd694e933aab6",
+          "md5": "a4cd6b7ffaca6940cd07e9887f5d261d"
+        }
+      ]
+    }
+  ]
+}

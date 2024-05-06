@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "vn.hunghd.flutter.plugins.imagecropper",
+    "module": "image_cropper_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_cropper_profile-1.0.aar",
+          "url": "image_cropper_profile-1.0.aar",
+          "size": 25515,
+          "sha512": "6f9fc11c46286baf0904ee48dd1cae8500f63cd89abeca05723925c3ddfdac2f753f611f657a668abb2f7138590a3cddb269f3bca2c990c019120ca29b0dec1b",
+          "sha256": "72b1240c5b663eaf331589ace38bef642cd8718878864ed2905b49a591aab36d",
+          "sha1": "426eb96bf94dd4c32a216bf150fdca1d71424e74",
+          "md5": "8c7e8cf349f880be4d30c9413d5d57ce"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "com.github.yalantis",
+          "module": "ucrop",
+          "version": {
+            "requires": "2.2.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_cropper_profile-1.0.aar",
+          "url": "image_cropper_profile-1.0.aar",
+          "size": 25515,
+          "sha512": "6f9fc11c46286baf0904ee48dd1cae8500f63cd89abeca05723925c3ddfdac2f753f611f657a668abb2f7138590a3cddb269f3bca2c990c019120ca29b0dec1b",
+          "sha256": "72b1240c5b663eaf331589ace38bef642cd8718878864ed2905b49a591aab36d",
+          "sha1": "426eb96bf94dd4c32a216bf150fdca1d71424e74",
+          "md5": "8c7e8cf349f880be4d30c9413d5d57ce"
+        }
+      ]
+    }
+  ]
+}

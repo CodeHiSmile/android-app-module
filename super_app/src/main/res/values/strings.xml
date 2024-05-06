@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_oninstall">Module Title</string>
+    <string name="title_dynamicfeature">OnDemand</string>
+</resources>

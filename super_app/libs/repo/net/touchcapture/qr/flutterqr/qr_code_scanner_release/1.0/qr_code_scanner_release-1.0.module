@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.touchcapture.qr.flutterqr",
+    "module": "qr_code_scanner_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qr_code_scanner_release-1.0.aar",
+          "url": "qr_code_scanner_release-1.0.aar",
+          "size": 36346,
+          "sha512": "0fbb7ae1f5cebfd057090422e87d9012e8cd2ec905b0f90de7bf387e3d685dd9d8cb09f47ae8d189b0c3478d79a93e3e95176fb9c77e942e019705ce9685cc48",
+          "sha256": "f95296d5f62b6a7cdce947d67653bf8c41342f8ffeb7176409d0522e24abf88b",
+          "sha1": "7b421a44c631b0c75a991dcf2cbf35e4415c63f1",
+          "md5": "e64fdcc74c0be8f52e92c73bcad8d4dc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.journeyapps",
+          "module": "zxing-android-embedded",
+          "version": {
+            "requires": "4.3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qr_code_scanner_release-1.0.aar",
+          "url": "qr_code_scanner_release-1.0.aar",
+          "size": 36346,
+          "sha512": "0fbb7ae1f5cebfd057090422e87d9012e8cd2ec905b0f90de7bf387e3d685dd9d8cb09f47ae8d189b0c3478d79a93e3e95176fb9c77e942e019705ce9685cc48",
+          "sha256": "f95296d5f62b6a7cdce947d67653bf8c41342f8ffeb7176409d0522e24abf88b",
+          "sha1": "7b421a44c631b0c75a991dcf2cbf35e4415c63f1",
+          "md5": "e64fdcc74c0be8f52e92c73bcad8d4dc"
+        }
+      ]
+    }
+  ]
+}

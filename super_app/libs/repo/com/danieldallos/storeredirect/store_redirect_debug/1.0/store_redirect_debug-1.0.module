@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.danieldallos.storeredirect",
+    "module": "store_redirect_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store_redirect_debug-1.0.aar",
+          "url": "store_redirect_debug-1.0.aar",
+          "size": 5021,
+          "sha512": "8e0967bc38ec548cbc3ffca87d8dad82d6d6723bdd876d59c78e32b127ff7bdc466743889311062a67556d8d8e428fa4710c0b050b1d31448dde2c229fef60a1",
+          "sha256": "eca3df339846d69d989edcee862969aaab64e3f47ce24f21d258c5c3900b4a7b",
+          "sha1": "f305690f43da94b4658d23a1521e9176491f00ea",
+          "md5": "1944b7bb5c0d303d57e7d1d4e33b3892"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store_redirect_debug-1.0.aar",
+          "url": "store_redirect_debug-1.0.aar",
+          "size": 5021,
+          "sha512": "8e0967bc38ec548cbc3ffca87d8dad82d6d6723bdd876d59c78e32b127ff7bdc466743889311062a67556d8d8e428fa4710c0b050b1d31448dde2c229fef60a1",
+          "sha256": "eca3df339846d69d989edcee862969aaab64e3f47ce24f21d258c5c3900b4a7b",
+          "sha1": "f305690f43da94b4658d23a1521e9176491f00ea",
+          "md5": "1944b7bb5c0d303d57e7d1d4e33b3892"
+        }
+      ]
+    }
+  ]
+}

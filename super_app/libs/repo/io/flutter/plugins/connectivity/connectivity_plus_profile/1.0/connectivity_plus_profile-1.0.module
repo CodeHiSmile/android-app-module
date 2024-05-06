@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.connectivity",
+    "module": "connectivity_plus_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_profile-1.0.aar",
+          "url": "connectivity_plus_profile-1.0.aar",
+          "size": 9084,
+          "sha512": "bee74231dcb1f0155bdfb27e46eadc2a2383f1e7e3153696f989111ac5104748ba89944a9db0c87b2f24b3f42abc16eb10ca66081dbd2897eb7e45fe186eba13",
+          "sha256": "59b9df5f6fd903a65bfbf2bfaf70ebb4f95c897144e1bbcf33aa215c1774e042",
+          "sha1": "d8108fd931586b877f26c704e9146df89caaaebe",
+          "md5": "2b029b5d5d0a7e1cac968bd05fe83320"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_profile-1.0.aar",
+          "url": "connectivity_plus_profile-1.0.aar",
+          "size": 9084,
+          "sha512": "bee74231dcb1f0155bdfb27e46eadc2a2383f1e7e3153696f989111ac5104748ba89944a9db0c87b2f24b3f42abc16eb10ca66081dbd2897eb7e45fe186eba13",
+          "sha256": "59b9df5f6fd903a65bfbf2bfaf70ebb4f95c897144e1bbcf33aa215c1774e042",
+          "sha1": "d8108fd931586b877f26c704e9146df89caaaebe",
+          "md5": "2b029b5d5d0a7e1cac968bd05fe83320"
+        }
+      ]
+    }
+  ]
+}

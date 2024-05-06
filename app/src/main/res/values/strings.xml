@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidAppModule</string>
+    <string name="title_super_app">Module Title</string>
 </resources>

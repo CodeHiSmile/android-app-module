@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.isar.isar_flutter_libs",
+    "module": "isar_flutter_libs_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "isar_flutter_libs_debug-1.0.aar",
+          "url": "isar_flutter_libs_debug-1.0.aar",
+          "size": 2207452,
+          "sha512": "d8b56cb7a31e1f3a036affa98d346de057a2f70bcd67de000720ef55e03fe20473a59ca3152035e3d8be187202172626522a0443139b24b13f975d805e58e420",
+          "sha256": "88834a5bc9f31d2220820aaf4c5a6d47b51f882578a7eb5efcb6a58c4a4ba0fa",
+          "sha1": "92d3ec1cce58206890d58c42387e17ca38dfc308",
+          "md5": "8603323a654a655bc4e8603827999e3d"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "isar_flutter_libs_debug-1.0.aar",
+          "url": "isar_flutter_libs_debug-1.0.aar",
+          "size": 2207452,
+          "sha512": "d8b56cb7a31e1f3a036affa98d346de057a2f70bcd67de000720ef55e03fe20473a59ca3152035e3d8be187202172626522a0443139b24b13f975d805e58e420",
+          "sha256": "88834a5bc9f31d2220820aaf4c5a6d47b51f882578a7eb5efcb6a58c4a4ba0fa",
+          "sha1": "92d3ec1cce58206890d58c42387e17ca38dfc308",
+          "md5": "8603323a654a655bc4e8603827999e3d"
+        }
+      ]
+    }
+  ]
+}
