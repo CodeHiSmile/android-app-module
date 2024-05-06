@@ -4,6 +4,7 @@ buildscript {
         classpath("com.android.tools.build:gradle:8.1.0")
         classpath("com.google.gms:google-services:4.4.1")
     }
+
 }
 
 plugins {
@@ -12,3 +13,5 @@ plugins {
     id("com.google.gms.google-services") version "4.4.1" apply false
     id("com.android.dynamic-feature") version "8.1.2" apply false
 }
+
+
