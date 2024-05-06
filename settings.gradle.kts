@@ -23,6 +23,11 @@ dependencyResolutionManagement {
             }
         }
     }
+
+    repositories {
+        maven(url = "https://storage.googleapis.com/download.flutter.io")
+        maven(url = "some/path/flutter_module_project/build/host/outputs/repo")
+    }
 }
 
 rootProject.name = "AndroidAppModule"

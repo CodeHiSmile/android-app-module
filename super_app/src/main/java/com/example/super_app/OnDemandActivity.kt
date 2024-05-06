@@ -11,18 +11,20 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import io.flutter.embedding.android.FlutterActivity
 
+//import io.flutter.embedding.android.FlutterActivity
+
 class OnDemandActivity : AppCompatActivity() {
     private var btnOnDemand: TextView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_on_demand)
-        val intent = Intent(this, FlutterActivity::class.java)
+        val intent = Intent (this, FlutterActivity::class.java)
         askNotificationPermission()
         btnOnDemand = this.findViewById(R.id.tvClick)
 
         btnOnDemand!!.setOnClickListener {
             startActivity(
-                FlutterActivity.createDefaultIntent(this)
+            FlutterActivity.createDefaultIntent(this)
             )
         }
     }
