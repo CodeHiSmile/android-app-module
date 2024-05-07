@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.firebase.dynamiclinks",
+    "module": "firebase_dynamic_links_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.core",
+          "module": "firebase_core_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_dynamic_links_debug-1.0.aar",
+          "url": "firebase_dynamic_links_debug-1.0.aar",
+          "size": 15691,
+          "sha512": "ac86ffee281b5e2d9d8bd934b6d2b925c1f38333848b86d78cb61c6f9d8718595e5c35e964b51445f1c0869c6d9e650a2848d29bd20fcc57285d3cfdbe4524bd",
+          "sha256": "f4e1a91f83acae11aaca994442ddf0856f7138adbf5988c3ee1b3eccdfe52886",
+          "sha1": "b52f51d21a341c9698bf9c7413d8245899afcd02",
+          "md5": "a5e6310618e43e54d8c1fdbb49242a3e"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "32.3.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-dynamic-links"
+        },
+        {
+          "group": "io.flutter.plugins.firebase.core",
+          "module": "firebase_core_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_dynamic_links_debug-1.0.aar",
+          "url": "firebase_dynamic_links_debug-1.0.aar",
+          "size": 15691,
+          "sha512": "ac86ffee281b5e2d9d8bd934b6d2b925c1f38333848b86d78cb61c6f9d8718595e5c35e964b51445f1c0869c6d9e650a2848d29bd20fcc57285d3cfdbe4524bd",
+          "sha256": "f4e1a91f83acae11aaca994442ddf0856f7138adbf5988c3ee1b3eccdfe52886",
+          "sha1": "b52f51d21a341c9698bf9c7413d8245899afcd02",
+          "md5": "a5e6310618e43e54d8c1fdbb49242a3e"
+        }
+      ]
+    }
+  ]
+}

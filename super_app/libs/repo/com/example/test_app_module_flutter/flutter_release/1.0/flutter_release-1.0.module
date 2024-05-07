@@ -66,6 +66,20 @@
           }
         },
         {
+          "group": "io.flutter.plugins.firebase.database",
+          "module": "firebase_database_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.dexterous.flutterlocalnotifications",
+          "module": "flutter_local_notifications_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
           "group": "io.flutter.plugins.pathprovider",
           "module": "path_provider_android_release",
           "version": {
@@ -192,6 +206,13 @@
           }
         },
         {
+          "group": "io.flutter.plugins.firebase.dynamiclinks",
+          "module": "firebase_dynamic_links_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
           "group": "vn.hunghd.flutter.plugins.imagecropper",
           "module": "image_cropper_release",
           "version": {
@@ -208,6 +229,20 @@
         {
           "group": "com.baseflow.permissionhandler",
           "module": "permission_handler_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.analytics",
+          "module": "firebase_analytics_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.auth",
+          "module": "firebase_auth_release",
           "version": {
             "requires": "1.0"
           }
@@ -231,11 +266,11 @@
         {
           "name": "flutter_release-1.0.aar",
           "url": "flutter_release-1.0.aar",
-          "size": 4142431,
-          "sha512": "956d393dd7d99b759501ccf8eec0dc1724ff9a1c2af733a1ddf77c2ab57698254ba78634749d908a2c7e81b093849e3073f8a6f671dd8db1df6c7897b0fea41f",
-          "sha256": "54e40ee07cdce87efc2c41e87ef5966f24278719410b51e715150fd1ac6fac2d",
-          "sha1": "01cc12f46a36fc556b18c412b3cabd180444f9ce",
-          "md5": "9b8a4afa4c881968396c5928e6ed41db"
+          "size": 4126508,
+          "sha512": "e6ec886a6f817a44aaa2810440c6e3ebe8efbe227d9e2b46874fdeb79eefefd82adc0c56053505a2672c6d18f97f63d489e92eb1767444d379e2656a7f3b6219",
+          "sha256": "8a8f8dcc12ea5fd25375e647445a54a4733bda5bb0b3af1803d6f1aabbaac601",
+          "sha1": "141b72b2031e1890148ca89058e283d1a905d73c",
+          "md5": "9ffd97921e98709a58998847afe8922d"
         }
       ]
     },
@@ -291,6 +326,20 @@
           }
         },
         {
+          "group": "io.flutter.plugins.firebase.database",
+          "module": "firebase_database_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.dexterous.flutterlocalnotifications",
+          "module": "flutter_local_notifications_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
           "group": "io.flutter.plugins.pathprovider",
           "module": "path_provider_android_release",
           "version": {
@@ -417,6 +466,13 @@
           }
         },
         {
+          "group": "io.flutter.plugins.firebase.dynamiclinks",
+          "module": "firebase_dynamic_links_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
           "group": "vn.hunghd.flutter.plugins.imagecropper",
           "module": "image_cropper_release",
           "version": {
@@ -433,6 +489,20 @@
         {
           "group": "com.baseflow.permissionhandler",
           "module": "permission_handler_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.analytics",
+          "module": "firebase_analytics_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.auth",
+          "module": "firebase_auth_release",
           "version": {
             "requires": "1.0"
           }
@@ -456,11 +526,11 @@
         {
           "name": "flutter_release-1.0.aar",
           "url": "flutter_release-1.0.aar",
-          "size": 4142431,
-          "sha512": "956d393dd7d99b759501ccf8eec0dc1724ff9a1c2af733a1ddf77c2ab57698254ba78634749d908a2c7e81b093849e3073f8a6f671dd8db1df6c7897b0fea41f",
-          "sha256": "54e40ee07cdce87efc2c41e87ef5966f24278719410b51e715150fd1ac6fac2d",
-          "sha1": "01cc12f46a36fc556b18c412b3cabd180444f9ce",
-          "md5": "9b8a4afa4c881968396c5928e6ed41db"
+          "size": 4126508,
+          "sha512": "e6ec886a6f817a44aaa2810440c6e3ebe8efbe227d9e2b46874fdeb79eefefd82adc0c56053505a2672c6d18f97f63d489e92eb1767444d379e2656a7f3b6219",
+          "sha256": "8a8f8dcc12ea5fd25375e647445a54a4733bda5bb0b3af1803d6f1aabbaac601",
+          "sha1": "141b72b2031e1890148ca89058e283d1a905d73c",
+          "md5": "9ffd97921e98709a58998847afe8922d"
         }
       ]
     }

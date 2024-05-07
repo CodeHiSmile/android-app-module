@@ -42,11 +42,11 @@
         {
           "name": "cloud_firestore_debug-1.0.aar",
           "url": "cloud_firestore_debug-1.0.aar",
-          "size": 130993,
-          "sha512": "02b217e5a7b5552d77cfef2d48f21fdbd949f741a825f3b68b83d6050aca2ec258654d75beebe3caffedc6e33fe9d30c9155cb7d444aabbcf0a91510a910bacc",
-          "sha256": "6b8fa51771725794ac08f492eac845a8cbb2143a9bf0f6cd7528473bec05554d",
-          "sha1": "6c55f6dc1240ace29f5e74820acb30f9c4347887",
-          "md5": "a73343e08da95d5905d482a4d6c14814"
+          "size": 48464,
+          "sha512": "a704f409a7344d7477082d26890b7423e843daba656fbc825f2f52c5d06889fec88af023918bd146993048797d4835375a6d4474c703d0d4a428e7cc02f8cd09",
+          "sha256": "673fa6c6c022af53996bd43725a965174cc6d22b2dec1faa76538410295793a9",
+          "sha1": "ab08b6931996a4ce43f0d75753fdf23b98bb749c",
+          "md5": "a147bfb93e317f6d7d2e505d4075b5e5"
         }
       ]
     },
@@ -70,7 +70,7 @@
           "group": "com.google.firebase",
           "module": "firebase-bom",
           "version": {
-            "requires": "32.6.0"
+            "requires": "32.3.1"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -93,11 +93,11 @@
         {
           "name": "cloud_firestore_debug-1.0.aar",
           "url": "cloud_firestore_debug-1.0.aar",
-          "size": 130993,
-          "sha512": "02b217e5a7b5552d77cfef2d48f21fdbd949f741a825f3b68b83d6050aca2ec258654d75beebe3caffedc6e33fe9d30c9155cb7d444aabbcf0a91510a910bacc",
-          "sha256": "6b8fa51771725794ac08f492eac845a8cbb2143a9bf0f6cd7528473bec05554d",
-          "sha1": "6c55f6dc1240ace29f5e74820acb30f9c4347887",
-          "md5": "a73343e08da95d5905d482a4d6c14814"
+          "size": 48464,
+          "sha512": "a704f409a7344d7477082d26890b7423e843daba656fbc825f2f52c5d06889fec88af023918bd146993048797d4835375a6d4474c703d0d4a428e7cc02f8cd09",
+          "sha256": "673fa6c6c022af53996bd43725a965174cc6d22b2dec1faa76538410295793a9",
+          "sha1": "ab08b6931996a4ce43f0d75753fdf23b98bb749c",
+          "md5": "a147bfb93e317f6d7d2e505d4075b5e5"
         }
       ]
     }

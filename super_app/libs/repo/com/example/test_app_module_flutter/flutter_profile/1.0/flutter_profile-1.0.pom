@@ -49,6 +49,18 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>io.flutter.plugins.firebase.database</groupId>
+      <artifactId>firebase_database_profile</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.dexterous.flutterlocalnotifications</groupId>
+      <artifactId>flutter_local_notifications_profile</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>io.flutter.plugins.pathprovider</groupId>
       <artifactId>path_provider_android_profile</artifactId>
       <version>1.0</version>
@@ -157,6 +169,12 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>io.flutter.plugins.firebase.dynamiclinks</groupId>
+      <artifactId>firebase_dynamic_links_profile</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>vn.hunghd.flutter.plugins.imagecropper</groupId>
       <artifactId>image_cropper_profile</artifactId>
       <version>1.0</version>
@@ -171,6 +189,18 @@
     <dependency>
       <groupId>com.baseflow.permissionhandler</groupId>
       <artifactId>permission_handler_android_profile</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.firebase.analytics</groupId>
+      <artifactId>firebase_analytics_profile</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.firebase.auth</groupId>
+      <artifactId>firebase_auth_profile</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>

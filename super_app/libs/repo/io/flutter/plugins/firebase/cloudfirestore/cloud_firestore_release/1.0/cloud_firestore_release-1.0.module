@@ -42,11 +42,11 @@
         {
           "name": "cloud_firestore_release-1.0.aar",
           "url": "cloud_firestore_release-1.0.aar",
-          "size": 122312,
-          "sha512": "723c1539e30e48571ebf56ebfbea5078686f9286da4ff972e99deb4df9592a1b9a99b9f14c9dfdad56e5d7097be7f264ac399fc33cd9647772e90c71472c0f48",
-          "sha256": "4d55663e3d1f03056326833c6805eba3e2383d31bae4f7978c39bb1e8747609e",
-          "sha1": "45689a94b87bde44bcbdd5c5e3ddee20fb36d064",
-          "md5": "69c39d74cf8051cfcf97346f6ce7e823"
+          "size": 45649,
+          "sha512": "047d70bfc3e1762c9bc2827f5554c6c1f28bb8d885e9fd77213dbb36d08e46cdfb46333af84f7ea61fbad463135e9ab02befa6fb40e7d434d889fdf65bc18617",
+          "sha256": "007bf311525144991ecdec7a9f91ce9ec4e8820b616114aced0a8d1ba91b8e70",
+          "sha1": "74b78b94c52f1657ca0ccb00cf8e55a9527322be",
+          "md5": "1edc28177e69e73af1ce083e547e061c"
         }
       ]
     },
@@ -70,7 +70,7 @@
           "group": "com.google.firebase",
           "module": "firebase-bom",
           "version": {
-            "requires": "32.6.0"
+            "requires": "32.3.1"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -93,11 +93,11 @@
         {
           "name": "cloud_firestore_release-1.0.aar",
           "url": "cloud_firestore_release-1.0.aar",
-          "size": 122312,
-          "sha512": "723c1539e30e48571ebf56ebfbea5078686f9286da4ff972e99deb4df9592a1b9a99b9f14c9dfdad56e5d7097be7f264ac399fc33cd9647772e90c71472c0f48",
-          "sha256": "4d55663e3d1f03056326833c6805eba3e2383d31bae4f7978c39bb1e8747609e",
-          "sha1": "45689a94b87bde44bcbdd5c5e3ddee20fb36d064",
-          "md5": "69c39d74cf8051cfcf97346f6ce7e823"
+          "size": 45649,
+          "sha512": "047d70bfc3e1762c9bc2827f5554c6c1f28bb8d885e9fd77213dbb36d08e46cdfb46333af84f7ea61fbad463135e9ab02befa6fb40e7d434d889fdf65bc18617",
+          "sha256": "007bf311525144991ecdec7a9f91ce9ec4e8820b616114aced0a8d1ba91b8e70",
+          "sha1": "74b78b94c52f1657ca0ccb00cf8e55a9527322be",
+          "md5": "1edc28177e69e73af1ce083e547e061c"
         }
       ]
     }

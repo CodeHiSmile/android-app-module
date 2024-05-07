@@ -42,11 +42,11 @@
         {
           "name": "firebase_messaging_debug-1.0.aar",
           "url": "firebase_messaging_debug-1.0.aar",
-          "size": 51644,
-          "sha512": "4f0d785985a95ffc2aedc1a2011c2d97484e86db11c5cd0d7658471ac52c8a87b9b8bbc0b3d10a1fd62fffa49ba6b21d6f2f57513a5bf995b749b45023a2cb71",
-          "sha256": "e434b55bfb9134acae2232e218de81f1bfa19f0efc0da30c95138de451fc2a38",
-          "sha1": "6b5c8c1921d9d7d54167a204cebf79585f723054",
-          "md5": "4c6258305a65d7fa752452517d163bd7"
+          "size": 51492,
+          "sha512": "f8c6003c17e45e4427b1a658cf4dbd523bbe6bc3ee60547b9f87772d93be484170e08c0e65f44854017e40535dff15910313c8ca6eccbbf861b1adabed500f7c",
+          "sha256": "5759721809eb045243087746dc52908682c64d108bd51868b0f98383123c92b1",
+          "sha1": "81df7a80ef410a9c28003544d1629cbf0d40aa4a",
+          "md5": "1f50e7fac767dfde426458cc5810469a"
         }
       ]
     },
@@ -70,7 +70,7 @@
           "group": "com.google.firebase",
           "module": "firebase-bom",
           "version": {
-            "requires": "32.6.0"
+            "requires": "32.3.1"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -92,7 +92,7 @@
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.4.0"
           }
         },
         {
@@ -114,11 +114,11 @@
         {
           "name": "firebase_messaging_debug-1.0.aar",
           "url": "firebase_messaging_debug-1.0.aar",
-          "size": 51644,
-          "sha512": "4f0d785985a95ffc2aedc1a2011c2d97484e86db11c5cd0d7658471ac52c8a87b9b8bbc0b3d10a1fd62fffa49ba6b21d6f2f57513a5bf995b749b45023a2cb71",
-          "sha256": "e434b55bfb9134acae2232e218de81f1bfa19f0efc0da30c95138de451fc2a38",
-          "sha1": "6b5c8c1921d9d7d54167a204cebf79585f723054",
-          "md5": "4c6258305a65d7fa752452517d163bd7"
+          "size": 51492,
+          "sha512": "f8c6003c17e45e4427b1a658cf4dbd523bbe6bc3ee60547b9f87772d93be484170e08c0e65f44854017e40535dff15910313c8ca6eccbbf861b1adabed500f7c",
+          "sha256": "5759721809eb045243087746dc52908682c64d108bd51868b0f98383123c92b1",
+          "sha1": "81df7a80ef410a9c28003544d1629cbf0d40aa4a",
+          "md5": "1f50e7fac767dfde426458cc5810469a"
         }
       ]
     }

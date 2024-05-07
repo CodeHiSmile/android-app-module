@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.firebase.auth",
+    "module": "firebase_auth_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.core",
+          "module": "firebase_core_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_auth_profile-1.0.aar",
+          "url": "firebase_auth_profile-1.0.aar",
+          "size": 60979,
+          "sha512": "7e5d4b662daf47d78f491ad6b1a80cf6cdfeb870a2c420c51adc37288948634d1ba007d697e5dbbe101a0eb0af43845e3472d6cbf1910e746e592b882e0c43a2",
+          "sha256": "86d95cc7b95308bee7b7e420e6e8dae037f6b9c68d79e78c029c0a5eedd66ef8",
+          "sha1": "c37a7f5f39cbea48df0a7218c4ac2d58a49acb54",
+          "md5": "28a55a988fd439a8bfa73cc903eb467b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "32.3.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-auth"
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.core",
+          "module": "firebase_core_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_auth_profile-1.0.aar",
+          "url": "firebase_auth_profile-1.0.aar",
+          "size": 60979,
+          "sha512": "7e5d4b662daf47d78f491ad6b1a80cf6cdfeb870a2c420c51adc37288948634d1ba007d697e5dbbe101a0eb0af43845e3472d6cbf1910e746e592b882e0c43a2",
+          "sha256": "86d95cc7b95308bee7b7e420e6e8dae037f6b9c68d79e78c029c0a5eedd66ef8",
+          "sha1": "c37a7f5f39cbea48df0a7218c4ac2d58a49acb54",
+          "md5": "28a55a988fd439a8bfa73cc903eb467b"
+        }
+      ]
+    }
+  ]
+}

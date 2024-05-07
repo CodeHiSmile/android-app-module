@@ -35,11 +35,11 @@
         {
           "name": "firebase_core_debug-1.0.aar",
           "url": "firebase_core_debug-1.0.aar",
-          "size": 31133,
-          "sha512": "e8e3be23bb81453908f6180b2b9b5fa0c5a95f7c1d83c5b3887c4cb6b50d6fbe9f1635cebb86c1af497f9f5179ef272d1e613c57486f73c87f357eb4e788518b",
-          "sha256": "2849f5cf2a87fb5a78da7a8c88d2e282d2f5eab2bf30363b1041f47b52134509",
-          "sha1": "5b3cbaae691d2920af9228cc706fff697c130313",
-          "md5": "447dc589c7eb7f8d6226b3bf2ea10844"
+          "size": 32261,
+          "sha512": "786550afc0491ec55aca98eeab8cd1b37e3fa426c851d4ad763a3577c086bca57b10a3882534310bdbe9fe8a7d2698567dc82cdd5aa009d0895a07fe0f7088fd",
+          "sha256": "465366eecb5e70a950ae991431be58f461dc4bdc6cfc0c7ce542dd473b85c116",
+          "sha1": "136ac239307e4eb73ef9d4f7dc7658372b6fc778",
+          "md5": "6790b03dd2a651482817bd42782c688c"
         }
       ]
     },
@@ -63,7 +63,7 @@
           "group": "com.google.firebase",
           "module": "firebase-bom",
           "version": {
-            "requires": "32.6.0"
+            "requires": "32.3.1"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -78,7 +78,7 @@
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.1.0"
           }
         }
       ],
@@ -86,11 +86,11 @@
         {
           "name": "firebase_core_debug-1.0.aar",
           "url": "firebase_core_debug-1.0.aar",
-          "size": 31133,
-          "sha512": "e8e3be23bb81453908f6180b2b9b5fa0c5a95f7c1d83c5b3887c4cb6b50d6fbe9f1635cebb86c1af497f9f5179ef272d1e613c57486f73c87f357eb4e788518b",
-          "sha256": "2849f5cf2a87fb5a78da7a8c88d2e282d2f5eab2bf30363b1041f47b52134509",
-          "sha1": "5b3cbaae691d2920af9228cc706fff697c130313",
-          "md5": "447dc589c7eb7f8d6226b3bf2ea10844"
+          "size": 32261,
+          "sha512": "786550afc0491ec55aca98eeab8cd1b37e3fa426c851d4ad763a3577c086bca57b10a3882534310bdbe9fe8a7d2698567dc82cdd5aa009d0895a07fe0f7088fd",
+          "sha256": "465366eecb5e70a950ae991431be58f461dc4bdc6cfc0c7ce542dd473b85c116",
+          "sha1": "136ac239307e4eb73ef9d4f7dc7658372b6fc778",
+          "md5": "6790b03dd2a651482817bd42782c688c"
         }
       ]
     }

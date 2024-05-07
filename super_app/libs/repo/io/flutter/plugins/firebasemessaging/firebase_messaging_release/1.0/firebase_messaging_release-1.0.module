@@ -42,11 +42,11 @@
         {
           "name": "firebase_messaging_release-1.0.aar",
           "url": "firebase_messaging_release-1.0.aar",
-          "size": 49015,
-          "sha512": "5512a144d55405be5952d2711379b587200f5a01be680cd24fab2c5c7bcfb56fb86f2f4c521be6eeb81088cb2d3d1481e29f87b8e561d3595bf08c1be0b4a87c",
-          "sha256": "de9994b07d2869f91bded531f422f8f30cb68d8dee03b0e88bef89fa5681152c",
-          "sha1": "bca28a5fa09926e974c91216b4c846f7ca53fe57",
-          "md5": "b699ea7da6dc7e3c55aa97632316916d"
+          "size": 48880,
+          "sha512": "482b6eac5b3e50e3ebb8f38ee57a5cbd2ecfe84a82a4083270ede1fab03798d9d36efa22f5c73fb8ffb77e605b534f4b1ebc79514c9a5794ae8de42d21c2a8e2",
+          "sha256": "ae15adc2d521cee1a28e2ea9eed15880b58b29191e9d1ea6899791a91fb12e43",
+          "sha1": "dbac1a207474f2d3a84ac2b2e79b644d662bdabc",
+          "md5": "fa6380bdca8978f3560a2067ebd61f69"
         }
       ]
     },
@@ -70,7 +70,7 @@
           "group": "com.google.firebase",
           "module": "firebase-bom",
           "version": {
-            "requires": "32.6.0"
+            "requires": "32.3.1"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -92,7 +92,7 @@
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.4.0"
           }
         },
         {
@@ -114,11 +114,11 @@
         {
           "name": "firebase_messaging_release-1.0.aar",
           "url": "firebase_messaging_release-1.0.aar",
-          "size": 49015,
-          "sha512": "5512a144d55405be5952d2711379b587200f5a01be680cd24fab2c5c7bcfb56fb86f2f4c521be6eeb81088cb2d3d1481e29f87b8e561d3595bf08c1be0b4a87c",
-          "sha256": "de9994b07d2869f91bded531f422f8f30cb68d8dee03b0e88bef89fa5681152c",
-          "sha1": "bca28a5fa09926e974c91216b4c846f7ca53fe57",
-          "md5": "b699ea7da6dc7e3c55aa97632316916d"
+          "size": 48880,
+          "sha512": "482b6eac5b3e50e3ebb8f38ee57a5cbd2ecfe84a82a4083270ede1fab03798d9d36efa22f5c73fb8ffb77e605b534f4b1ebc79514c9a5794ae8de42d21c2a8e2",
+          "sha256": "ae15adc2d521cee1a28e2ea9eed15880b58b29191e9d1ea6899791a91fb12e43",
+          "sha1": "dbac1a207474f2d3a84ac2b2e79b644d662bdabc",
+          "md5": "fa6380bdca8978f3560a2067ebd61f69"
         }
       ]
     }

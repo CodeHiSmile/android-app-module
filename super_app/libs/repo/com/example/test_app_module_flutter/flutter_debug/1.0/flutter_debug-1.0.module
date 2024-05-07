@@ -73,6 +73,20 @@
           }
         },
         {
+          "group": "io.flutter.plugins.firebase.database",
+          "module": "firebase_database_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.dexterous.flutterlocalnotifications",
+          "module": "flutter_local_notifications_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
           "group": "io.flutter.plugins.pathprovider",
           "module": "path_provider_android_debug",
           "version": {
@@ -199,6 +213,13 @@
           }
         },
         {
+          "group": "io.flutter.plugins.firebase.dynamiclinks",
+          "module": "firebase_dynamic_links_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
           "group": "vn.hunghd.flutter.plugins.imagecropper",
           "module": "image_cropper_debug",
           "version": {
@@ -215,6 +236,20 @@
         {
           "group": "com.baseflow.permissionhandler",
           "module": "permission_handler_android_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.analytics",
+          "module": "firebase_analytics_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.auth",
+          "module": "firebase_auth_debug",
           "version": {
             "requires": "1.0"
           }
@@ -238,11 +273,11 @@
         {
           "name": "flutter_debug-1.0.aar",
           "url": "flutter_debug-1.0.aar",
-          "size": 16326528,
-          "sha512": "9888fb844ad1b2fdac4b9368d6f15f22a1ff2aedfe8e2ad537549b3fad5380d1a664b5fc262e37c8a6470818a4b40062da69b7c110503d513f5e03558e252639",
-          "sha256": "b347828a2704ebc62e742b7bc691c4af16a90ad40a1d934738710b19f092d18a",
-          "sha1": "7d464dfa2f68760aee5c083f2ae87546cd4961f0",
-          "md5": "959f6fa39f34fa287976164e0129211a"
+          "size": 16294572,
+          "sha512": "ce7ab0388fe0b61344d4b17fbf8bc3fa0c549640e8b55429e4b0deb03f8fda770746051a1315129e4c4b508adf9d3e59431ead792e88d78b93f73e52578d60ab",
+          "sha256": "9a06969cbc0c742873e86d66b2378f9a15cd735c0f0657fc00e40cded472e532",
+          "sha1": "a42f57d292dcf860273a8f207a0c34033b74f2a5",
+          "md5": "1bed7e3e12fa9e743c4d20472264cc44"
         }
       ]
     },
@@ -305,6 +340,20 @@
           }
         },
         {
+          "group": "io.flutter.plugins.firebase.database",
+          "module": "firebase_database_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.dexterous.flutterlocalnotifications",
+          "module": "flutter_local_notifications_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
           "group": "io.flutter.plugins.pathprovider",
           "module": "path_provider_android_debug",
           "version": {
@@ -431,6 +480,13 @@
           }
         },
         {
+          "group": "io.flutter.plugins.firebase.dynamiclinks",
+          "module": "firebase_dynamic_links_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
           "group": "vn.hunghd.flutter.plugins.imagecropper",
           "module": "image_cropper_debug",
           "version": {
@@ -447,6 +503,20 @@
         {
           "group": "com.baseflow.permissionhandler",
           "module": "permission_handler_android_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.analytics",
+          "module": "firebase_analytics_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.auth",
+          "module": "firebase_auth_debug",
           "version": {
             "requires": "1.0"
           }
@@ -470,11 +540,11 @@
         {
           "name": "flutter_debug-1.0.aar",
           "url": "flutter_debug-1.0.aar",
-          "size": 16326528,
-          "sha512": "9888fb844ad1b2fdac4b9368d6f15f22a1ff2aedfe8e2ad537549b3fad5380d1a664b5fc262e37c8a6470818a4b40062da69b7c110503d513f5e03558e252639",
-          "sha256": "b347828a2704ebc62e742b7bc691c4af16a90ad40a1d934738710b19f092d18a",
-          "sha1": "7d464dfa2f68760aee5c083f2ae87546cd4961f0",
-          "md5": "959f6fa39f34fa287976164e0129211a"
+          "size": 16294572,
+          "sha512": "ce7ab0388fe0b61344d4b17fbf8bc3fa0c549640e8b55429e4b0deb03f8fda770746051a1315129e4c4b508adf9d3e59431ead792e88d78b93f73e52578d60ab",
+          "sha256": "9a06969cbc0c742873e86d66b2378f9a15cd735c0f0657fc00e40cded472e532",
+          "sha1": "a42f57d292dcf860273a8f207a0c34033b74f2a5",
+          "md5": "1bed7e3e12fa9e743c4d20472264cc44"
         }
       ]
     }

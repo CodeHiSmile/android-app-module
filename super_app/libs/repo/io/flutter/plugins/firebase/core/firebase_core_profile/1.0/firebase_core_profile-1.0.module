@@ -35,11 +35,11 @@
         {
           "name": "firebase_core_profile-1.0.aar",
           "url": "firebase_core_profile-1.0.aar",
-          "size": 29593,
-          "sha512": "1907b02f1ad1d4c3f3153753006954e99d933cfc8233d5ac9221334bf4f1d0d6cabfed16b01506750b79aed433377885257f4c8cd611f407d29100adff775aa6",
-          "sha256": "26e51891697b9d8ae3f023591ebf41d5bcc401ca9ef9a7bb96b227bb8bfc5cc2",
-          "sha1": "977913c05ed3a7a9cf2a6519c9f9f8feb06f17fc",
-          "md5": "36b149926d5b0bf428ee594ed5dc50d0"
+          "size": 30604,
+          "sha512": "499a023203cb704198dd157e2d0443e083cb05c949e8ee828a0110309497b90c93480c7cc698aaa128107f43fbb55cc5fdae8c99975bf5a60ee012ba179d060f",
+          "sha256": "cd89aaceb4b912a30007b7e34ea5999dbdd6c9ad8d7b559b162994fbb40c7947",
+          "sha1": "9cb27905e9de09a6619797ee24776003540c4e1b",
+          "md5": "d9e3fe1d80eb3bc158f1db51d5d546f4"
         }
       ]
     },
@@ -63,7 +63,7 @@
           "group": "com.google.firebase",
           "module": "firebase-bom",
           "version": {
-            "requires": "32.6.0"
+            "requires": "32.3.1"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -78,7 +78,7 @@
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.1.0"
           }
         }
       ],
@@ -86,11 +86,11 @@
         {
           "name": "firebase_core_profile-1.0.aar",
           "url": "firebase_core_profile-1.0.aar",
-          "size": 29593,
-          "sha512": "1907b02f1ad1d4c3f3153753006954e99d933cfc8233d5ac9221334bf4f1d0d6cabfed16b01506750b79aed433377885257f4c8cd611f407d29100adff775aa6",
-          "sha256": "26e51891697b9d8ae3f023591ebf41d5bcc401ca9ef9a7bb96b227bb8bfc5cc2",
-          "sha1": "977913c05ed3a7a9cf2a6519c9f9f8feb06f17fc",
-          "md5": "36b149926d5b0bf428ee594ed5dc50d0"
+          "size": 30604,
+          "sha512": "499a023203cb704198dd157e2d0443e083cb05c949e8ee828a0110309497b90c93480c7cc698aaa128107f43fbb55cc5fdae8c99975bf5a60ee012ba179d060f",
+          "sha256": "cd89aaceb4b912a30007b7e34ea5999dbdd6c9ad8d7b559b162994fbb40c7947",
+          "sha1": "9cb27905e9de09a6619797ee24776003540c4e1b",
+          "md5": "d9e3fe1d80eb3bc158f1db51d5d546f4"
         }
       ]
     }
