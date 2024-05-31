@@ -49,6 +49,12 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>de.gigadroid.flutterudid</groupId>
+      <artifactId>flutter_udid_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>io.flutter.plugins.firebase.core</groupId>
       <artifactId>firebase_core_debug</artifactId>
       <version>1.0</version>
@@ -61,14 +67,14 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.dexterous.flutterlocalnotifications</groupId>
-      <artifactId>flutter_local_notifications_debug</artifactId>
+      <groupId>io.flutter.plugins.pathprovider</groupId>
+      <artifactId>path_provider_android_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.pathprovider</groupId>
-      <artifactId>path_provider_android_debug</artifactId>
+      <groupId>fman.ge.smart_auth</groupId>
+      <artifactId>smart_auth_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
@@ -81,6 +87,12 @@
     <dependency>
       <groupId>creativemaybeno.wakelock</groupId>
       <artifactId>wakelock_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ryanheise.just_audio</groupId>
+      <artifactId>just_audio_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
@@ -99,6 +111,12 @@
     <dependency>
       <groupId>dev.fluttercommunity.plus.share</groupId>
       <artifactId>share_plus_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.pharsh.sms_user_consent</groupId>
+      <artifactId>sms_user_consent_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
@@ -133,12 +151,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.firebasemessaging</groupId>
-      <artifactId>firebase_messaging_debug</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>io.flutter.plugins.flutter_plugin_android_lifecycle</groupId>
       <artifactId>flutter_plugin_android_lifecycle_debug</artifactId>
       <version>1.0</version>
@@ -163,12 +175,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.firebase.cloudfirestore</groupId>
-      <artifactId>cloud_firestore_debug</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>io.flutter.plugins.connectivity</groupId>
       <artifactId>connectivity_plus_debug</artifactId>
       <version>1.0</version>
@@ -181,12 +187,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>vn.hunghd.flutter.plugins.imagecropper</groupId>
-      <artifactId>image_cropper_debug</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>io.flutter.plugins.webviewflutter</groupId>
       <artifactId>webview_flutter_android_debug</artifactId>
       <version>1.0</version>
@@ -195,12 +195,6 @@
     <dependency>
       <groupId>com.baseflow.permissionhandler</groupId>
       <artifactId>permission_handler_android_debug</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.flutter.plugins.firebase.analytics</groupId>
-      <artifactId>firebase_analytics_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
@@ -219,6 +213,12 @@
     <dependency>
       <groupId>dev.fluttercommunity.plus.device_info</groupId>
       <artifactId>device_info_plus_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.ryanheise.audio_session</groupId>
+      <artifactId>audio_session_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>

@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.gigadroid.flutterudid",
+    "module": "flutter_udid_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_udid_debug-1.0.aar",
+          "url": "flutter_udid_debug-1.0.aar",
+          "size": 6550,
+          "sha512": "d19a60af8e6a2df5522f5d221b0606625b4fa47e93b8a088a920052df739d5ec5bd030fa34fbaea51bc674c06e847d1f020a891d45228374b510b0436feaffca",
+          "sha256": "955ba0e5db8a49dc7c18f651f07849f879a5b9eef6118b66e6824915cf0fd4b5",
+          "sha1": "4cacad0a0ffe70513ea41497fc4a4f3bfd082032",
+          "md5": "4e8ec90a5fbc11214979adacbb176b51"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_udid_debug-1.0.aar",
+          "url": "flutter_udid_debug-1.0.aar",
+          "size": 6550,
+          "sha512": "d19a60af8e6a2df5522f5d221b0606625b4fa47e93b8a088a920052df739d5ec5bd030fa34fbaea51bc674c06e847d1f020a891d45228374b510b0436feaffca",
+          "sha256": "955ba0e5db8a49dc7c18f651f07849f879a5b9eef6118b66e6824915cf0fd4b5",
+          "sha1": "4cacad0a0ffe70513ea41497fc4a4f3bfd082032",
+          "md5": "4e8ec90a5fbc11214979adacbb176b51"
+        }
+      ]
+    }
+  ]
+}

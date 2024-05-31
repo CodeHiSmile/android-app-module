@@ -59,6 +59,13 @@
           }
         },
         {
+          "group": "de.gigadroid.flutterudid",
+          "module": "flutter_udid_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
           "group": "io.flutter.plugins.firebase.core",
           "module": "firebase_core_release",
           "version": {
@@ -73,15 +80,15 @@
           }
         },
         {
-          "group": "com.dexterous.flutterlocalnotifications",
-          "module": "flutter_local_notifications_release",
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
           "version": {
             "requires": "1.0"
           }
         },
         {
-          "group": "io.flutter.plugins.pathprovider",
-          "module": "path_provider_android_release",
+          "group": "fman.ge.smart_auth",
+          "module": "smart_auth_release",
           "version": {
             "requires": "1.0"
           }
@@ -96,6 +103,13 @@
         {
           "group": "creativemaybeno.wakelock",
           "module": "wakelock_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.ryanheise.just_audio",
+          "module": "just_audio_release",
           "version": {
             "requires": "1.0"
           }
@@ -117,6 +131,13 @@
         {
           "group": "dev.fluttercommunity.plus.share",
           "module": "share_plus_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "dev.pharsh.sms_user_consent",
+          "module": "sms_user_consent_release",
           "version": {
             "requires": "1.0"
           }
@@ -157,13 +178,6 @@
           }
         },
         {
-          "group": "io.flutter.plugins.firebasemessaging",
-          "module": "firebase_messaging_release",
-          "version": {
-            "requires": "1.0"
-          }
-        },
-        {
           "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
           "module": "flutter_plugin_android_lifecycle_release",
           "version": {
@@ -192,13 +206,6 @@
           }
         },
         {
-          "group": "io.flutter.plugins.firebase.cloudfirestore",
-          "module": "cloud_firestore_release",
-          "version": {
-            "requires": "1.0"
-          }
-        },
-        {
           "group": "io.flutter.plugins.connectivity",
           "module": "connectivity_plus_release",
           "version": {
@@ -213,13 +220,6 @@
           }
         },
         {
-          "group": "vn.hunghd.flutter.plugins.imagecropper",
-          "module": "image_cropper_release",
-          "version": {
-            "requires": "1.0"
-          }
-        },
-        {
           "group": "io.flutter.plugins.webviewflutter",
           "module": "webview_flutter_android_release",
           "version": {
@@ -229,13 +229,6 @@
         {
           "group": "com.baseflow.permissionhandler",
           "module": "permission_handler_android_release",
-          "version": {
-            "requires": "1.0"
-          }
-        },
-        {
-          "group": "io.flutter.plugins.firebase.analytics",
-          "module": "firebase_analytics_release",
           "version": {
             "requires": "1.0"
           }
@@ -260,17 +253,24 @@
           "version": {
             "requires": "1.0"
           }
+        },
+        {
+          "group": "com.ryanheise.audio_session",
+          "module": "audio_session_release",
+          "version": {
+            "requires": "1.0"
+          }
         }
       ],
       "files": [
         {
           "name": "flutter_release-1.0.aar",
           "url": "flutter_release-1.0.aar",
-          "size": 4126508,
-          "sha512": "e6ec886a6f817a44aaa2810440c6e3ebe8efbe227d9e2b46874fdeb79eefefd82adc0c56053505a2672c6d18f97f63d489e92eb1767444d379e2656a7f3b6219",
-          "sha256": "8a8f8dcc12ea5fd25375e647445a54a4733bda5bb0b3af1803d6f1aabbaac601",
-          "sha1": "141b72b2031e1890148ca89058e283d1a905d73c",
-          "md5": "9ffd97921e98709a58998847afe8922d"
+          "size": 77656838,
+          "sha512": "41600d3333aa0b83eeff28df96b16a16d3286a5c9171ff265c8acdc3d6fb2ca7187a42e1d334539e9b0c476ea5a567dbe4cce95a8bb4aa6c7f79590e4562a82c",
+          "sha256": "b11c06715b5d851835aa624bd29614a0a40d6433b4dc2f7b8bac735e6baf12f2",
+          "sha1": "e473a9d0da4ebbe8ad6723d4e9da35b0d889b78d",
+          "md5": "6ec8759d0ea66c0528325c134792ddcc"
         }
       ]
     },
@@ -319,6 +319,13 @@
           }
         },
         {
+          "group": "de.gigadroid.flutterudid",
+          "module": "flutter_udid_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
           "group": "io.flutter.plugins.firebase.core",
           "module": "firebase_core_release",
           "version": {
@@ -333,15 +340,15 @@
           }
         },
         {
-          "group": "com.dexterous.flutterlocalnotifications",
-          "module": "flutter_local_notifications_release",
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
           "version": {
             "requires": "1.0"
           }
         },
         {
-          "group": "io.flutter.plugins.pathprovider",
-          "module": "path_provider_android_release",
+          "group": "fman.ge.smart_auth",
+          "module": "smart_auth_release",
           "version": {
             "requires": "1.0"
           }
@@ -356,6 +363,13 @@
         {
           "group": "creativemaybeno.wakelock",
           "module": "wakelock_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.ryanheise.just_audio",
+          "module": "just_audio_release",
           "version": {
             "requires": "1.0"
           }
@@ -377,6 +391,13 @@
         {
           "group": "dev.fluttercommunity.plus.share",
           "module": "share_plus_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "dev.pharsh.sms_user_consent",
+          "module": "sms_user_consent_release",
           "version": {
             "requires": "1.0"
           }
@@ -417,13 +438,6 @@
           }
         },
         {
-          "group": "io.flutter.plugins.firebasemessaging",
-          "module": "firebase_messaging_release",
-          "version": {
-            "requires": "1.0"
-          }
-        },
-        {
           "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
           "module": "flutter_plugin_android_lifecycle_release",
           "version": {
@@ -452,13 +466,6 @@
           }
         },
         {
-          "group": "io.flutter.plugins.firebase.cloudfirestore",
-          "module": "cloud_firestore_release",
-          "version": {
-            "requires": "1.0"
-          }
-        },
-        {
           "group": "io.flutter.plugins.connectivity",
           "module": "connectivity_plus_release",
           "version": {
@@ -473,13 +480,6 @@
           }
         },
         {
-          "group": "vn.hunghd.flutter.plugins.imagecropper",
-          "module": "image_cropper_release",
-          "version": {
-            "requires": "1.0"
-          }
-        },
-        {
           "group": "io.flutter.plugins.webviewflutter",
           "module": "webview_flutter_android_release",
           "version": {
@@ -489,13 +489,6 @@
         {
           "group": "com.baseflow.permissionhandler",
           "module": "permission_handler_android_release",
-          "version": {
-            "requires": "1.0"
-          }
-        },
-        {
-          "group": "io.flutter.plugins.firebase.analytics",
-          "module": "firebase_analytics_release",
           "version": {
             "requires": "1.0"
           }
@@ -520,17 +513,24 @@
           "version": {
             "requires": "1.0"
           }
+        },
+        {
+          "group": "com.ryanheise.audio_session",
+          "module": "audio_session_release",
+          "version": {
+            "requires": "1.0"
+          }
         }
       ],
       "files": [
         {
           "name": "flutter_release-1.0.aar",
           "url": "flutter_release-1.0.aar",
-          "size": 4126508,
-          "sha512": "e6ec886a6f817a44aaa2810440c6e3ebe8efbe227d9e2b46874fdeb79eefefd82adc0c56053505a2672c6d18f97f63d489e92eb1767444d379e2656a7f3b6219",
-          "sha256": "8a8f8dcc12ea5fd25375e647445a54a4733bda5bb0b3af1803d6f1aabbaac601",
-          "sha1": "141b72b2031e1890148ca89058e283d1a905d73c",
-          "md5": "9ffd97921e98709a58998847afe8922d"
+          "size": 77656838,
+          "sha512": "41600d3333aa0b83eeff28df96b16a16d3286a5c9171ff265c8acdc3d6fb2ca7187a42e1d334539e9b0c476ea5a567dbe4cce95a8bb4aa6c7f79590e4562a82c",
+          "sha256": "b11c06715b5d851835aa624bd29614a0a40d6433b4dc2f7b8bac735e6baf12f2",
+          "sha1": "e473a9d0da4ebbe8ad6723d4e9da35b0d889b78d",
+          "md5": "6ec8759d0ea66c0528325c134792ddcc"
         }
       ]
     }

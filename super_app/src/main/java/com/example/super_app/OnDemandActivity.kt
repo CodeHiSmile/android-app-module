@@ -10,9 +10,14 @@ import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import io.flutter.embedding.android.FlutterActivity
+import io.flutter.embedding.engine.FlutterEngine
+import io.flutter.embedding.engine.FlutterEngineCache
+import io.flutter.embedding.engine.dart.DartExecutor
 
 class OnDemandActivity : AppCompatActivity() {
     private var btnOnDemand: TextView? = null
+    lateinit var flutterEngine: FlutterEngine
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_on_demand)
@@ -20,9 +25,25 @@ class OnDemandActivity : AppCompatActivity() {
         askNotificationPermission()
         btnOnDemand = this.findViewById(R.id.tvClick)
 
+        flutterEngine = FlutterEngine(this)
+        // Configure an initial route.
+        flutterEngine.navigationChannel.setInitialRoute("/root");
+
+        // Start executing Dart code to pre-warm the FlutterEngine.
+        flutterEngine.dartExecutor.executeDartEntrypoint(
+            DartExecutor.DartEntrypoint.createDefault()
+        )
+
+        // Cache the FlutterEngine to be used by FlutterActivity.
+        FlutterEngineCache
+            .getInstance()
+            .put("product", flutterEngine)
+
         btnOnDemand!!.setOnClickListener {
             startActivity(
-                FlutterActivity.createDefaultIntent(this)
+                FlutterActivity
+                    .withCachedEngine("product")
+                    .build(this)
             )
         }
     }
